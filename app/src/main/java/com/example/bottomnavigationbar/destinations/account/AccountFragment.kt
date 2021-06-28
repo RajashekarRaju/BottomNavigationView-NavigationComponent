@@ -1,4 +1,4 @@
-package com.example.bottomnavigationbar.destinations
+package com.example.bottomnavigationbar.destinations.account
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
