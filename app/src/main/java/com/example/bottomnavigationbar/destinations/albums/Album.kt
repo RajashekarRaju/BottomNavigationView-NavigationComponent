@@ -5,7 +5,7 @@ data class Album(
 ) {
     companion object{
         fun albumList(): List<Album> {
-            val list = listOf(
+            return listOf(
                 Album("Ultraviolence"),
                 Album("Born to Die"),
                 Album("Rebel heart"),
@@ -17,7 +17,6 @@ data class Album(
                 Album("Pink"),
                 Album("Paradise")
             )
-            return list
         }
     }
 }

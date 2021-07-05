@@ -6,9 +6,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.bottomnavigationbar.R
-import com.example.bottomnavigationbar.destinations.albums.Album
-
-
 
 class FavouritesAdapter(
     private val FavouritesList: List<Favourites>

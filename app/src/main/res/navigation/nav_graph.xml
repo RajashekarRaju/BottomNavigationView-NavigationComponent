@@ -5,20 +5,22 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/accountFragment">
 
-
     <fragment
         android:id="@+id/accountFragment"
         android:name="com.example.bottomnavigationbar.destinations.account.AccountFragment"
         android:label="fragment_account"
         tools:layout="@layout/fragment_account" />
+
     <fragment
         android:id="@+id/favouritesFragment"
         android:name="com.example.bottomnavigationbar.destinations.favourites.FavouritesFragment"
         android:label="fragment_favourites"
         tools:layout="@layout/fragment_favourites" />
+
     <fragment
         android:id="@+id/albumsFragment"
         android:name="com.example.bottomnavigationbar.destinations.albums.AlbumsFragment"
         android:label="fragment_albums"
         tools:layout="@layout/fragment_albums" />
+
 </navigation>
