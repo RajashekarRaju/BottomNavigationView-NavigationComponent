@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">BottomNavigationBar</string>
+    <string name="app_name">Music Streaming</string>
+
+    <!--  Bottom navigation menu items  -->
+    <string name="bottom_nav_item_albums">Albums</string>
+    <string name="bottom_nav_item_favourites">Favourites</string>
+    <string name="bottom_nav_item_account">Account</string>
 </resources>
