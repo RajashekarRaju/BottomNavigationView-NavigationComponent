@@ -1,4 +1,4 @@
-package com.example.bottomnavigationbar.destinations.albums
+package com.developersbreach.bottomnavigationview.destinations.albums
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.bottomnavigationbar.R
+import com.example.bottomnavigationview.R
 
 class AlbumsFragment : Fragment() {
 
@@ -21,7 +21,7 @@ class AlbumsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val recyclerView: RecyclerView = view.findViewById(R.id.albums_recycler_view)
-        val adapter = AlbumsAdapter(Album.albumList())
+        val adapter = AlbumsAdapter()
         recyclerView.adapter = adapter
     }
 }

@@ -1,4 +1,4 @@
-package com.example.bottomnavigationbar.destinations.favourites
+package com.developersbreach.bottomnavigationview.destinations.favourites
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.bottomnavigationbar.R
+import com.example.bottomnavigationview.R
 
 
 class FavouritesFragment : Fragment() {
@@ -22,7 +22,7 @@ class FavouritesFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val recyclerView: RecyclerView = view.findViewById(R.id.favourites_recycler_view)
-        val adapter = FavouritesAdapter(Favourites.favourites())
+        val adapter = FavouritesAdapter()
         recyclerView.adapter = adapter
     }
 }
