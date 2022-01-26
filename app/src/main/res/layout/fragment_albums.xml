@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".destinations.albums.AlbumsFragment">
+    tools:context="com.developersbreach.bottomnavigationview.destinations.albums.AlbumsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/albums_recycler_view"

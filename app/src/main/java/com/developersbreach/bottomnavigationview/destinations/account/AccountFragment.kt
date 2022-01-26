@@ -1,11 +1,11 @@
-package com.example.bottomnavigationbar.destinations.account
+package com.developersbreach.bottomnavigationview.destinations.account
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.bottomnavigationbar.R
+import com.example.bottomnavigationview.R
 
 
 class AccountFragment : Fragment() {

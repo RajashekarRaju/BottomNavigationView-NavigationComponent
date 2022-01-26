@@ -3,28 +3,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".destinations.account.AccountFragment">
+    tools:context="com.developersbreach.bottomnavigationview.destinations.account.AccountFragment">
 
     <ImageView
-        android:layout_width="220dp"
-        android:layout_height="220dp"
-        android:layout_gravity="center"
-        android:src="@drawable/ic_baseline_account_circle_24" />
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"
-        android:text="Username"
-        android:textSize="40sp" />
+        android:text="Rajasekhar"
+        android:textAppearance="?attr/textAppearanceHeadline4" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User email address"
-        android:textSize="32sp" />
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="whatever@gmail.com"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Logout"
+        android:textAllCaps="false" />
 
 </LinearLayout>

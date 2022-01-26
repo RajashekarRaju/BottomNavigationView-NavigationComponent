@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".destinations.favourites.FavouritesFragment">
+    tools:context="com.developersbreach.bottomnavigationview.destinations.favourites.FavouritesFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/favourites_recycler_view"

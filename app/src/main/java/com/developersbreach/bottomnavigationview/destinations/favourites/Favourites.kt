@@ -1,4 +1,4 @@
-package com.example.bottomnavigationbar.destinations.favourites
+package com.developersbreach.bottomnavigationview.destinations.favourites
 
 data class Favourites(
     val albumName: String,
