@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rajas/AndroidStudioProjects/bottom-navigation-view-navigation-controller/app/src/main/res/drawable/ic_baseline_album_24.xml" value="0.20533333333333334" />
+        <entry key="..\:/Users/rajas/AndroidStudioProjects/bottom-navigation-view-navigation-controller/app/src/main/res/layout/activity_main.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/rajas/AndroidStudioProjects/bottom-navigation-view-navigation-controller/app/src/main/res/layout/fragment_account.xml" value="0.2" />
+        <entry key="..\:/Users/rajas/AndroidStudioProjects/bottom-navigation-view-navigation-controller/app/src/main/res/layout/fragment_albums.xml" value="0.19414414414414413" />
+        <entry key="..\:/Users/rajas/AndroidStudioProjects/bottom-navigation-view-navigation-controller/app/src/main/res/layout/fragment_favourites.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/rajas/AndroidStudioProjects/bottom-navigation-view-navigation-controller/app/src/main/res/layout/item_album.xml" value="0.22" />
+        <entry key="..\:/Users/rajas/AndroidStudioProjects/bottom-navigation-view-navigation-controller/app/src/main/res/layout/item_favourites.xml" value="0.19414414414414413" />
+        <entry key="..\:/Users/rajas/AndroidStudioProjects/bottom-navigation-view-navigation-controller/app/src/main/res/menu/menu_bottom_nav.xml" value="0.17592592592592593" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
